@@ -40,6 +40,9 @@ export default class App extends React.Component {
           }}
         />
 
+<TouchableOpacity style={{width:30,height:20,backgroundColor:"red"}}>
+  <Text >click me</Text>
+  </TouchableOpacity>
         <TextInput
           style={styles.inputBox}
           onChangeText={text => {
